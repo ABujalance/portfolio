@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ABujalance.github.io/static/css/main.584f321a.chunk.css",
-    "main.js": "/ABujalance.github.io/static/js/main.243d5d87.chunk.js",
-    "main.js.map": "/ABujalance.github.io/static/js/main.243d5d87.chunk.js.map",
-    "runtime-main.js": "/ABujalance.github.io/static/js/runtime-main.e4618569.js",
-    "runtime-main.js.map": "/ABujalance.github.io/static/js/runtime-main.e4618569.js.map",
-    "static/js/2.aabefd6c.chunk.js": "/ABujalance.github.io/static/js/2.aabefd6c.chunk.js",
-    "static/js/2.aabefd6c.chunk.js.map": "/ABujalance.github.io/static/js/2.aabefd6c.chunk.js.map",
-    "index.html": "/ABujalance.github.io/index.html",
-    "precache-manifest.4f8584eb24efd243aa7f94372fd56e61.js": "/ABujalance.github.io/precache-manifest.4f8584eb24efd243aa7f94372fd56e61.js",
-    "service-worker.js": "/ABujalance.github.io/service-worker.js",
-    "static/css/main.584f321a.chunk.css.map": "/ABujalance.github.io/static/css/main.584f321a.chunk.css.map",
-    "static/js/2.aabefd6c.chunk.js.LICENSE": "/ABujalance.github.io/static/js/2.aabefd6c.chunk.js.LICENSE"
+    "main.css": "/portfolio/static/css/main.584f321a.chunk.css",
+    "main.js": "/portfolio/static/js/main.cb64e4c1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb64e4c1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.aabefd6c.chunk.js": "/portfolio/static/js/2.aabefd6c.chunk.js",
+    "static/js/2.aabefd6c.chunk.js.map": "/portfolio/static/js/2.aabefd6c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ef870b3a16d664abeaa61a7350590496.js": "/portfolio/precache-manifest.ef870b3a16d664abeaa61a7350590496.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.584f321a.chunk.css.map": "/portfolio/static/css/main.584f321a.chunk.css.map",
+    "static/js/2.aabefd6c.chunk.js.LICENSE": "/portfolio/static/js/2.aabefd6c.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4618569.js",
+    "static/js/runtime-main.44087e9b.js",
     "static/js/2.aabefd6c.chunk.js",
     "static/css/main.584f321a.chunk.css",
-    "static/js/main.243d5d87.chunk.js"
+    "static/js/main.cb64e4c1.chunk.js"
   ]
 }
