@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ABujalance/ABujalance.github.io/static/css/main.584f321a.chunk.css",
+    "main.js": "/ABujalance/ABujalance.github.io/static/js/main.4d383ea6.chunk.js",
+    "main.js.map": "/ABujalance/ABujalance.github.io/static/js/main.4d383ea6.chunk.js.map",
+    "runtime-main.js": "/ABujalance/ABujalance.github.io/static/js/runtime-main.b2e4e07c.js",
+    "runtime-main.js.map": "/ABujalance/ABujalance.github.io/static/js/runtime-main.b2e4e07c.js.map",
+    "static/js/2.aabefd6c.chunk.js": "/ABujalance/ABujalance.github.io/static/js/2.aabefd6c.chunk.js",
+    "static/js/2.aabefd6c.chunk.js.map": "/ABujalance/ABujalance.github.io/static/js/2.aabefd6c.chunk.js.map",
+    "index.html": "/ABujalance/ABujalance.github.io/index.html",
+    "precache-manifest.d633c4d5eb5406f53e8f23761353e9c4.js": "/ABujalance/ABujalance.github.io/precache-manifest.d633c4d5eb5406f53e8f23761353e9c4.js",
+    "service-worker.js": "/ABujalance/ABujalance.github.io/service-worker.js",
+    "static/css/main.584f321a.chunk.css.map": "/ABujalance/ABujalance.github.io/static/css/main.584f321a.chunk.css.map",
+    "static/js/2.aabefd6c.chunk.js.LICENSE": "/ABujalance/ABujalance.github.io/static/js/2.aabefd6c.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2e4e07c.js",
+    "static/js/2.aabefd6c.chunk.js",
+    "static/css/main.584f321a.chunk.css",
+    "static/js/main.4d383ea6.chunk.js"
+  ]
+}
