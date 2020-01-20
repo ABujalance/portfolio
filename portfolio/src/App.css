@@ -35,14 +35,19 @@
 html {
   font-size: 100%;
 }
-body {
-  padding-bottom: 50px;
-}
 
 .card-img-top {
   width: 100%;
-  height: 30vw;
+  height: 25vw;
   object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .card-img-top {
+    width: 100%;
+    height: 80vw;
+    object-fit: cover;
+  }
 }
 
 .projects {
@@ -55,4 +60,40 @@ body {
   transform: scale(
     1.1
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.projects .card:hover .overlay {
+  opacity: 0.9;
+}
+
+.projects .card:active .overlay {
+  opacity: 0.9;
+}
+
+.projects .card {
+  width: 85%;
+}
+
+.projects .card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #1e1e2f;
+}
+
+.projects .card .overlay .text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
