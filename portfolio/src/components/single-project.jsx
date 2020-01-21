@@ -25,7 +25,7 @@ export default class Project extends Component {
               <br />
               {this.props.link != null && (
                 <a href={this.props.link} class="btn btn-outline-light">
-                  See this project!
+                  Check this project!
                 </a>
               )}
             </div>
