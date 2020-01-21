@@ -14,18 +14,9 @@ class App extends Component {
           <Sidebar />
           <div id="colorlib-main">
             <Introduction />
+            <Projects />
             <About />
             <Timeline />
-            <Projects />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div className="footer footer-transparent"></div>
           </div>
         </div>
