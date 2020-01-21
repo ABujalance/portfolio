@@ -12,7 +12,7 @@ export default class Project extends Component {
   render() {
     const techLabels = this.props.techList.map(i => (
       <span>
-        <span class="label label-info">{i}</span>
+        <span className="label label-info">{i}</span>
         <span>&nbsp;</span>
       </span>
     ));
@@ -24,12 +24,12 @@ export default class Project extends Component {
           <h3 className="card-title h3">{this.props.title}</h3>
         </div>
         <div className="card-footer">{techLabels}</div>
-        <div class="overlay">
-          <div class="text">
+        <div className="overlay">
+          <div className="text">
             <p>{this.props.bodyText}</p>
             <br />
             {this.props.link != null && (
-              <a href={this.props.link} class="btn btn-outline-light">
+              <a href={this.props.link} className="btn btn-sm btn-outline-light">
                 Check this project!
               </a>
             )}
