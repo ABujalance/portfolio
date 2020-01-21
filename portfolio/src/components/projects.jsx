@@ -20,7 +20,7 @@ export default class Projects extends Component {
           settings: {
             arrows: false,
             centerMode: true,
-            slidesToShow: 2.2
+            slidesToShow: 2.6
           }
         },
         {
@@ -28,7 +28,7 @@ export default class Projects extends Component {
           settings: {
             arrows: false,
             centerMode: true,
-            slidesToShow: 1.5
+            slidesToShow: 1.7
           }
         },
         {
@@ -36,7 +36,7 @@ export default class Projects extends Component {
           settings: {
             arrows: false,
             centerMode: true,
-            slidesToShow: 0.8
+            slidesToShow: 1
           }
         }
       ]
