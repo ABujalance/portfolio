@@ -24,7 +24,7 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-note" />
                       </div>
                       <div className="timeline-label">
                         <h2>
@@ -43,7 +43,7 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-note" />
                       </div>
                       <div className="timeline-label">
                         <h2>
@@ -60,7 +60,7 @@ export default class Timeline extends Component {
                   >
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                        <i className="icon-note" />
                       </div>
                       <div className="timeline-label">
                         <h2>
@@ -75,8 +75,8 @@ export default class Timeline extends Component {
                     data-animate-effect="fadeInLeft"
                   >
                     <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                      <div className="timeline-icon color-6">
+                        <i className="icon-note" />
                       </div>
                       <div className="timeline-label">
                         <h2>
