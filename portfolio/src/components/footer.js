@@ -25,8 +25,9 @@ const FooterSection = () => (
         </li>
       ))}
       </ul>
+      <p>Contacto: mail@abujalance.com &nbsp;<i className="icon-envelope" /></p>
       <p className="text-muted small mb-0">
-        Copyright &copy; Your Website 2018
+        Copyright &copy; Abujalance 2020
       </p>
     </div>
   </footer>

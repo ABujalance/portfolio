@@ -52,6 +52,7 @@ class Sidebar extends React.Component {
               Alberto Bujalance
             </a>
           </li>
+
           {siteNav.map(link => (
             <li
               key={link.url}
