@@ -2,18 +2,19 @@ import React from "react";
 import { withTranslation } from "react-i18next";
 import { Component } from "react";
 import i18nChange from "../i18n";
-import i18n from 'i18next'
+import i18n from "i18next";
 
 class Header extends Component {
   render() {
     const langList = [
-      { key: "en", desc: "English" },
-      { key: "es", desc: "Castellano" }
+      { key: "en-US", desc: "English" },
+      { key: "es-ES", desc: "Castellano" }
     ];
-    console.log(i18n.languages[0])
-    const currLang=langList.find(lang => lang.key===i18n.languages[0])
-  
-
+    console.log(i18n.languages[0]);
+    var currLang = langList.find(lang => lang.key === i18n.languages[0]);
+    if (typeof currLang === "undefined") {
+      currLang = { key: "en-US", desc: "English" };
+    }
 
     const { t } = this.props;
 
@@ -36,12 +37,18 @@ class Header extends Component {
             {t("header.findMore")}
           </a>
           <h4 className="mt-5">
-          {t("header.currentLanguage")}&nbsp;
+            {t("header.currentLanguage")}&nbsp;
             <span className="language-selector">
-              <b><u>{currLang.desc}</u>&#9662;</b>
+              <b>
+                <u>{currLang.desc}</u>&#9662;
+              </b>
               <div id="languages-list">
                 {langList.map(language => (
-                  <li key={language.key}><a onClick={() => changeLanguage(language.key)}><b>{language.desc}</b></a></li>
+                  <li key={language.key}>
+                    <a onClick={() => changeLanguage(language.key)}>
+                      <b>{language.desc}</b>
+                    </a>
+                  </li>
                 ))}
               </div>
             </span>

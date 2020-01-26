@@ -8,13 +8,13 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n.use(initReactI18next)
 .use(LanguageDetector).init({
-    fallbackLng: 'en',
+    fallbackLng: 'en-US',
     debug: true,
     resources: {
-      en: {
+      "en-US": {
         translation: common_en,
       },
-      es: {
+      "es-ES": {
         translation: common_es,
       },
     },
