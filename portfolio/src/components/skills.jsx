@@ -6,7 +6,7 @@ export default class Skills extends Component {
     return (
       <ScrollableAnchor id="skills">
         <section className="content-section">
-          <div className="container text-center">
+          <div className="container-fluid text-center">
             <div className="row">
               <div
                 className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"

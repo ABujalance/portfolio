@@ -6,7 +6,7 @@ export default class Timeline extends Component {
     return (
       <ScrollableAnchor id="timeline">
         <section className="content-section">
-          <div className="container text-center">
+          <div className="container-fluid text-center">
             <section className="colorlib-experience" data-section="timeline">
               <div className="colorlib-narrow-content">
                 <div className="row">

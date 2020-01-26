@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./i18n";
 
 import "./scss/stylish-portfolio.css";
 import "slick-carousel/slick/slick.css";
@@ -14,10 +15,7 @@ import "mdbreact/dist/css/mdb.css";
 import Sidebar from "./components/sidebar";
 import Header from "./components/header";
 import AboutSection from "./components/about";
-import ServicesSections from "./components/services";
 import PortfolioSection from "./components/portfolio";
-import CallToAction from "./components/callToAction";
-import MapSection from "./components/map";
 import FooterSection from "./components/footer";
 import ScrollToTop from "./components/scrollToTop";
 import Skills from "./components/skills";

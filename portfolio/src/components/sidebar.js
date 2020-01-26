@@ -1,4 +1,5 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -8,6 +9,8 @@ class Sidebar extends React.Component {
     };
   }
   render() {
+    const { t, i18n } = withTranslation();
+
     const siteNav = [
       {
         title: "Home",
@@ -76,4 +79,4 @@ class Sidebar extends React.Component {
     //    $(this).toggleClass("active");
   }
 }
-export default Sidebar;
+export default withTranslation()(Sidebar);
