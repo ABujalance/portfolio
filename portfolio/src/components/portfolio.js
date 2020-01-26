@@ -2,14 +2,13 @@ import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import Project from "./single-project";
 import Slider from "react-slick";
-import i18n from 'i18next';
+import i18n from "i18next";
 import { withTranslation } from "react-i18next";
 
 var projectList = [
   {
-    title: "Buscador de agentes Caser",
-    bodyText:
-      "Proyecto realizado para la web pública de Caser que permite buscar los agentes de seguros más cercanos, distinguiendo entre varios tipos de agentes cada uno con su lógica de búsqueda.",
+    title: t("portfolio.project.caserMapa.title"),
+    bodyText: t("portfolio.project.caserMapa.desc"),
     link: "https://www.caser.es/conocenos/buscador-agentes",
     image: "./img/caser_mapa_agentes.jpg",
     techList: ["Java", "Liferay", "Javascript", "Maps"]
@@ -53,7 +52,6 @@ var sliderSettings = {
   ]
 };
 
-
 const PortfolioSection = ({ t }) => (
   <ScrollableAnchor id="portfolio">
     <section className="content-section bg-light">
@@ -66,8 +64,8 @@ const PortfolioSection = ({ t }) => (
           <Slider {...sliderSettings}>
             {projectList.map((project, index) => (
               <Project
-                title={t("portfolio.project.caserMapa.title")}
-                bodyText={t("portfolio.project.caserMapa.desc")}
+                title={project.title}
+                bodyText={project.bodyText}
                 link={project.link}
                 image={project.image}
                 techList={project.techList}
