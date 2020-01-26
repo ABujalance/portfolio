@@ -10,8 +10,9 @@ class Header extends Component {
       { key: "en", desc: "English" },
       { key: "es", desc: "Castellano" }
     ];
-
+    console.log(i18n.languages[0])
     const currLang=langList.find(lang => lang.key===i18n.languages[0])
+  
 
 
     const { t } = this.props;
