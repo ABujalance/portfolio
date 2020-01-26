@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom";
 import "./i18n";
 
@@ -24,6 +24,7 @@ import Timeline from "./components/timeline";
 class App extends React.Component {
   render() {
     return (
+      <Suspense fallback="loading">
       <div>
         <Sidebar />
         <Header />
@@ -34,6 +35,7 @@ class App extends React.Component {
         <FooterSection />
         <ScrollToTop />
       </div>
+      </Suspense>
     );
   }
 }

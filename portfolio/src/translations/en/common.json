@@ -1,2 +1,14 @@
-{"header.subtitle":"hello"
+{
+  "header.subtitle": "Software Solutions Made Clean, Made Simple",
+  "header.findMore": "Find Out More",
+  "header.currentLanguage": "Page currently showing in",
+  "sidebar.home": "Home",
+  "sidebar.portfolio": "Portfolio",
+  "sidebar.about": "About",
+  "sidebar.skills": "Skills",
+  "sidebar.cv": "CV",
+  "portfolio.projects": "Recent Projects",
+  "portfolio.projects.button": "Check This Project!",
+  "portfolio.project.caserMapa.title": "Caser Insurance Agents Searcher",
+  "portfolio.project.caserMapa.desc": "This project was part of the new web implementation. It allows an user to search nearby insurance agents and apply different filters and icons based on the type of agent"
 }

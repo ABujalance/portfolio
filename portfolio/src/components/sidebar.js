@@ -1,5 +1,6 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
+import i18n from 'i18next'
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -9,28 +10,28 @@ class Sidebar extends React.Component {
     };
   }
   render() {
-    const { t, i18n } = withTranslation();
+    const { t } = this.props;
 
     const siteNav = [
       {
-        title: "Home",
+        title:  t("sidebar.home"),
         url: "#top"
       },
       {
-        title: "Portfolio",
+        title: t("sidebar.portfolio"),
         url: "#portfolio"
       },
       {
-        title: "About",
+        title: t("sidebar.about"),
         url: "#about"
       },
       {
-        title: "Skills",
+        title: t("sidebar.skills"),
         url: "#skills"
       },
 
       {
-        title: "CV",
+        title: t("sidebar.cv"),
         url: "#cv"
       }
     ];

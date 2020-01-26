@@ -1,2 +1,14 @@
-{"header.subtitle":"hola"
+{
+  "header.subtitle": "Soluciones software limpias, simples",
+  "header.findMore": "Quiero saber más",
+  "header.currentLanguage": "La página se está mostrando en",
+  "sidebar.home": "Home",
+  "sidebar.portfolio": "Portofolio",
+  "sidebar.about": "Sobre mí",
+  "sidebar.skills": "Habilidades",
+  "sidebar.cv": "CV",
+  "portfolio.projects": "Proyectos recientes",
+  "portfolio.projects.button": "Ver este proyecto",
+  "portfolio.project.caserMapa.title": "Buscador de agentes Caser",
+  "portfolio.project.caserMapa.desc": "Proyecto realizado para la web pública de Caser que permite buscar los agentes de seguros más cercanos, distinguiendo entre varios tipos de agentes cada uno con su lógica de búsqueda."
 }

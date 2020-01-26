@@ -1,11 +1,16 @@
 import React, { Component } from "react";
+import i18n from 'i18next';
+import { withTranslation } from "react-i18next";
 
 
 
-export default class Project extends Component {
+class Project extends Component {
 
 
   render() {
+
+    const { t } = this.props;
+
     const techLabels = this.props.techList.map(i => (
         <span className="btn btn-sm btn-info m-1">{i}</span>
     ));
@@ -23,7 +28,7 @@ export default class Project extends Component {
             <br />
             {this.props.link != null && (
               <a href={this.props.link} className="btn btn-outline-light">
-                Check this project!
+                {t("portfolio.projects.button")}
               </a>
             )}
           </div>
@@ -36,3 +41,5 @@ export default class Project extends Component {
 Project.defaultProps = {
   techList: []
 };
+
+export default withTranslation()(Project);
