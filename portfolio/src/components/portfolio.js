@@ -7,8 +7,8 @@ import { withTranslation } from "react-i18next";
 
 var projectList = [
   {
-    title: t("portfolio.project.caserMapa.title"),
-    bodyText: t("portfolio.project.caserMapa.desc"),
+    titleKey: "portfolio.project.caserMapa.title",
+    bodyTextKey: "portfolio.project.caserMapa.desc",
     link: "https://www.caser.es/conocenos/buscador-agentes",
     image: "./img/caser_mapa_agentes.jpg",
     techList: ["Java", "Liferay", "Javascript", "Maps"]
@@ -64,8 +64,8 @@ const PortfolioSection = ({ t }) => (
           <Slider {...sliderSettings}>
             {projectList.map((project, index) => (
               <Project
-                title={project.title}
-                bodyText={project.bodyText}
+                title={t(project.titleKey)}
+                bodyText={t(project.bodyTextKey)}
                 link={project.link}
                 image={project.image}
                 techList={project.techList}
