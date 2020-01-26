@@ -15,6 +15,7 @@ class Header extends Component {
     if (typeof currLang === "undefined") {
       currLang = { key: "en-US", desc: "English" };
     }
+    console.log(currLang);
 
     const { t } = this.props;
 
