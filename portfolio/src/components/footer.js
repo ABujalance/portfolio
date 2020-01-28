@@ -6,10 +6,6 @@ const socialSites = [
     icon: "icon-social-linkedin"
   },
   {
-    link: "https://twitter.com/DeadpixelG",
-    icon: "icon-social-twitter"
-  },
-  {
     link: "https://github.com/ABujalance",
     icon: "icon-social-github"
   }
