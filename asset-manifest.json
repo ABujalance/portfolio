@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.47ba0a16.chunk.css",
-    "main.js": "/static/js/main.9daa05f3.chunk.js",
-    "main.js.map": "/static/js/main.9daa05f3.chunk.js.map",
+    "main.css": "/static/css/main.c86d904c.chunk.css",
+    "main.js": "/static/js/main.df725670.chunk.js",
+    "main.js.map": "/static/js/main.df725670.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
     "static/css/2.f38eb79a.chunk.css": "/static/css/2.f38eb79a.chunk.css",
-    "static/js/2.16c6e5a3.chunk.js": "/static/js/2.16c6e5a3.chunk.js",
-    "static/js/2.16c6e5a3.chunk.js.map": "/static/js/2.16c6e5a3.chunk.js.map",
+    "static/js/2.1e6c551c.chunk.js": "/static/js/2.1e6c551c.chunk.js",
+    "static/js/2.1e6c551c.chunk.js.map": "/static/js/2.1e6c551c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f629decc2a8f2e7bd6ecb0ebe8742886.js": "/precache-manifest.f629decc2a8f2e7bd6ecb0ebe8742886.js",
+    "precache-manifest.24a1bd49e3013a00b35c0ca7ae6a520a.js": "/precache-manifest.24a1bd49e3013a00b35c0ca7ae6a520a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f38eb79a.chunk.css.map": "/static/css/2.f38eb79a.chunk.css.map",
-    "static/css/main.47ba0a16.chunk.css.map": "/static/css/main.47ba0a16.chunk.css.map",
-    "static/js/2.16c6e5a3.chunk.js.LICENSE": "/static/js/2.16c6e5a3.chunk.js.LICENSE",
+    "static/css/main.c86d904c.chunk.css.map": "/static/css/main.c86d904c.chunk.css.map",
+    "static/js/2.1e6c551c.chunk.js.LICENSE": "/static/js/2.1e6c551c.chunk.js.LICENSE",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/stylish-portfolio.css": "/static/media/bg-masthead.31f926ac.jpg",
+    "static/media/stylish-portfolio.css": "/static/media/bg-masthead.29058cfd.jpg",
     "static/media/all.min.css": "/static/media/fa-solid-900.f6121be5.woff2",
     "static/media/styles.css": "/static/media/gato-2.8514c3be.jpg",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
     "static/css/2.f38eb79a.chunk.css",
-    "static/js/2.16c6e5a3.chunk.js",
-    "static/css/main.47ba0a16.chunk.css",
-    "static/js/main.9daa05f3.chunk.js"
+    "static/js/2.1e6c551c.chunk.js",
+    "static/css/main.c86d904c.chunk.css",
+    "static/js/main.df725670.chunk.js"
   ]
 }
