@@ -13,11 +13,15 @@ const AboutSection = ({ t }) => (
           <div className="col-lg-6"></div>
           <div style={{ backgroundColor: "rgba(0, 0, 0, .7)", width: "100%" }}>
             {" "}
-            <h2 style={{ fontSize: 50 }} className="text-light big-text m-3">
-              {t("about.title")}
-            </h2>
-            <p style={{ fontSize: 30 }} className="text-light lead m-5">
-              <b>{t("about.desc")}</b>
+            <h2 className="text-light big-text m-3">{t("about.title")}</h2>
+            <p className="text-light lead m-5">
+              <b>
+                {t("about.desc")
+                  .split("/n")
+                  .map(pa => (
+                    <p>{pa}</p>
+                  ))}
+              </b>
             </p>
           </div>
         </div>
