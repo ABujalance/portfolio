@@ -2,19 +2,10 @@ import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import Project from "./single-project";
 import Slider from "react-slick";
-import i18n from "i18next";
 import { withTranslation } from "react-i18next";
+import projectData from "../data/projects.json";
 
-var projectList = [
-  {
-    titleKey: "portfolio.project.caserMapa.title",
-    bodyTextKey: "portfolio.project.caserMapa.desc",
-    link: "https://www.caser.es/conocenos/buscador-agentes",
-    image: "./img/caser_mapa_agentes.jpg",
-    techList: ["Java", "Liferay", "Javascript", "Maps"]
-  }
-];
-
+var projectList = projectData.projects;
 var sliderSettings = {
   accesibility: true,
   slidesToShow: 3.1,
@@ -51,7 +42,7 @@ var sliderSettings = {
     }
   ]
 };
-
+console.log(projectList);
 const PortfolioSection = ({ t }) => (
   <ScrollableAnchor id="portfolio">
     <section className="content-section bg-light">

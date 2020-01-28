@@ -1,0 +1,50 @@
+{
+  "skills": [
+    {
+      "title": "portfolio.skill.web.title",
+      "desc": "portfolio.skill.web.desc",
+      "icon": "globe",
+      "colorNumber": 1
+    },
+    {
+      "title": "portfolio.skill.db.title",
+      "desc": "portfolio.skill.db.desc",
+      "icon": "layers",
+      "colorNumber": 2
+    },
+    {
+      "title": "portfolio.skill.api.title",
+      "desc": "portfolio.skill.api.desc",
+      "icon": "rocket",
+      "colorNumber": 3
+    },
+    {
+      "title": "portfolio.skill.data.title",
+      "desc": "portfolio.skill.data.desc",
+      "icon": "pie-chart",
+      "colorNumber": 4
+    },
+    {
+      "title": "portfolio.skill.management.title",
+      "desc": "portfolio.skill.management.desc",
+      "icon": "organization",
+      "colorNumber": 5
+    },
+    {
+      "title": "portfolio.skill.devops.title",
+      "desc": "portfolio.skill.devops.desc",
+      "icon": "social-github",
+      "colorNumber": 6
+    }, {
+      "title": "portfolio.skill.social.title",
+      "desc": "portfolio.skill.social.desc",
+      "icon": "social-twitter",
+      "colorNumber": 1
+    }, {
+      "title": "portfolio.skill.other.title",
+      "desc": "portfolio.skill.other.desc",
+      "icon": "bulb",
+      "colorNumber": 3
+    }
+  ]
+}

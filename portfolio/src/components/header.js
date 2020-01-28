@@ -10,12 +10,10 @@ class Header extends Component {
       { key: "en-US", desc: "English" },
       { key: "es-ES", desc: "Castellano" }
     ];
-    console.log(i18n.languages[0]);
     var currLang = langList.find(lang => lang.key === i18n.languages[0]);
     if (typeof currLang === "undefined") {
       currLang = { key: "en-US", desc: "English" };
     }
-    console.log(currLang);
 
     const { t } = this.props;
 
@@ -25,20 +23,20 @@ class Header extends Component {
     };
     return (
       <header className="masthead d-flex">
-        <div className="container text-center my-auto">
-          <h1 className="mb-1">Alberto Bujalance</h1>
-          <h3 className="mb-5">
+        <div className="container text-center text-white my-auto" >
+          <h1 className="mb-1" style={{textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"}}>Alberto Bujalance</h1>
+          <h3 className="mb-5" style={{textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"}}>
             <em> {t("header.subtitle")}</em>
           </h3>
 
           <a
-            className="btn btn-primary btn-xl js-scroll-trigger"
+            className="btn shadow btn-lg btn-light btn-xl js-scroll-trigger"
             href="#portfolio"
           >
-            {t("header.findMore")}
+            <b>{t("header.findMore")}</b>
           </a>
           <h4 className="mt-5">
-            {t("header.currentLanguage")}&nbsp;
+            {t("header.currentLanguage")}<br/>
             <span className="language-selector">
               <b>
                 <u>{currLang.desc}</u>&#9662;

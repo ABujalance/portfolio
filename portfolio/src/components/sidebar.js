@@ -1,6 +1,6 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
-import i18n from 'i18next'
+import i18n from "i18next";
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class Sidebar extends React.Component {
 
     const siteNav = [
       {
-        title:  t("sidebar.home"),
+        title: t("sidebar.home"),
         url: "#top"
       },
       {
@@ -53,7 +53,7 @@ class Sidebar extends React.Component {
         <ul className="sidebar-nav">
           <li className="sidebar-brand">
             <a className="js-scroll-trigger" href="#top">
-              Alberto Bujalance
+              <b>Alberto Bujalance</b>
             </a>
           </li>
           {siteNav.map(link => (
@@ -62,9 +62,11 @@ class Sidebar extends React.Component {
               className="sidebar-nav-item"
               onClick={() => this.onMenuItemClick()}
             >
-              <a className="js-scroll-trigger" href={link.url}>
-                {link.title}
-              </a>
+              <b>
+                <a className="js-scroll-trigger" href={link.url}>
+                  {link.title}
+                </a>
+              </b>
             </li>
           ))}
         </ul>

@@ -1,4 +1,5 @@
 import React from "react";
+import { withTranslation } from "react-i18next";
 const socialSites = [
   {
     link: "https://www.linkedin.com/in/alberto-bujalance-178062144/",
@@ -13,7 +14,7 @@ const socialSites = [
     icon: "icon-social-github"
   }
 ];
-const FooterSection = () => (
+const FooterSection = ({t}) => (
   <footer className="footer text-center">
     <div className="container">
       <ul className="list-inline mb-5">
@@ -24,12 +25,17 @@ const FooterSection = () => (
           </a>
         </li>
       ))}
+      <li className="list-inline-item">
+          <a className="social-link rounded-circle text-white mr-3" href="mailto:mail@abujalance.com">
+          <i className="icon-envelope" />
+          </a>
+        </li>
       </ul>
-      <p>Contacto: mail@abujalance.com &nbsp;<i className="icon-envelope" /></p>
+      <p>{t("social.mail")}: mail@abujalance.com</p>
       <p className="text-muted small mb-0">
         Copyright &copy; Abujalance 2020
       </p>
     </div>
   </footer>
 );
-export default FooterSection;
+export default withTranslation()(FooterSection);

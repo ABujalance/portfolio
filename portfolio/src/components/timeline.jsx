@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
+import { withTranslation } from "react-i18next";
 
-export default class Timeline extends Component {
+class Timeline extends Component {
   render() {
+    const { t } = this.props;
     return (
-      <ScrollableAnchor id="timeline">
+      <ScrollableAnchor id="cv">
         <section className="content-section">
           <div className="container-fluid text-center">
             <section className="colorlib-experience" data-section="timeline">
@@ -14,8 +16,7 @@ export default class Timeline extends Component {
                     className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
                     data-animate-effect="fadeInLeft"
                   >
-                    <span className="heading-meta">highlights</span>
-                    <h2 className="colorlib-heading animate-box">Timeline</h2>
+                    <h2>{t("timeline.title")}</h2>
                   </div>
                 </div>
                 <div className="row">
@@ -31,13 +32,10 @@ export default class Timeline extends Component {
                           </div>
                           <div className="timeline-label">
                             <h2>
-                              Babel Sistemas de Información
-                              <span>2019-present</span>
+                              {t("timeline.babel.title")}{" "}
+                              <span>2019-{t("timeline.present")}</span>
                             </h2>
-                            <p>
-                              I joined Babel on May, and since then I've been
-                              learning new ways to do projects
-                            </p>
+                            <p>{t("timeline.babel.desc")} </p>
                           </div>
                         </div>
                       </article>
@@ -47,14 +45,14 @@ export default class Timeline extends Component {
                       >
                         <div className="timeline-entry-inner">
                           <div className="timeline-icon color-4">
-                            <i className="icon-note" />
+                            <i className="icon-graduation" />
                           </div>
                           <div className="timeline-label">
                             <h2>
-                              Master in Data Science and Software Engineering
+                              {t("timeline.master.title")}{" "}
                               <span>2018-2019</span>
                             </h2>
-                            <p>Ya no me apetece inventarme más texto</p>
+                            <p> {t("timeline.master.desc")} </p>
                           </div>
                         </div>
                       </article>
@@ -68,9 +66,9 @@ export default class Timeline extends Component {
                           </div>
                           <div className="timeline-label">
                             <h2>
-                              Tier 1 S.A. <span>2017-2019</span>
+                              {t("timeline.tier.title")} <span>2017-2019</span>
                             </h2>
-                            <p>Regular la cosa</p>
+                            <p>{t("timeline.tier.desc")} </p>
                           </div>
                         </div>
                       </article>
@@ -80,13 +78,14 @@ export default class Timeline extends Component {
                       >
                         <div className="timeline-entry-inner">
                           <div className="timeline-icon color-6">
-                            <i className="icon-note" />
+                            <i className="icon-graduation" />
                           </div>
                           <div className="timeline-label">
                             <h2>
-                              Computer Engineering Degree<span>2013-2018</span>
+                              {t("timeline.degree.title")}{" "}
+                              <span>2013-2018</span>
                             </h2>
-                            <p>Ha costao</p>
+                            <p> {t("timeline.degree.desc")} </p>
                           </div>
                         </div>
                       </article>
@@ -109,3 +108,5 @@ export default class Timeline extends Component {
     );
   }
 }
+
+export default withTranslation()(Timeline);

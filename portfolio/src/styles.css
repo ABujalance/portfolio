@@ -460,6 +460,7 @@ html {
   transform: translateY(100%);
   list-style-type: none;
   display:none;
+  text-align: center;
 }
 
 .language-selector:hover #languages-list {
