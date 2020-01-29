@@ -50,7 +50,7 @@ class Timeline extends Component {
                           <div className="timeline-label">
                             <h2>
                               {t("timeline.master.title")}{" "}
-                              <span>2018-2019</span>
+                              <span>2018-2019 Universidad de Sevilla</span>
                             </h2>
                             <p> {t("timeline.master.desc")} </p>
                           </div>
@@ -83,7 +83,7 @@ class Timeline extends Component {
                           <div className="timeline-label">
                             <h2>
                               {t("timeline.degree.title")}{" "}
-                              <span>2013-2018</span>
+                              <span>2013-2018 Universidad de Sevilla</span>
                             </h2>
                             <p> {t("timeline.degree.desc")} </p>
                           </div>
