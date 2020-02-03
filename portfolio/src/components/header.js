@@ -23,9 +23,21 @@ class Header extends Component {
     };
     return (
       <header className="masthead d-flex">
-        <div className="container text-center text-white my-auto" >
-          <h1 className="mb-1" style={{textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"}}>Alberto Bujalance</h1>
-          <h3 className="mb-5" style={{textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"}}>
+        <div className="container text-center text-white my-auto">
+          <h1
+            className="mb-1"
+            style={{
+              textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
+            }}
+          >
+            Alberto Bujalance
+          </h1>
+          <h3
+            className="mb-5"
+            style={{
+              textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
+            }}
+          >
             <em> {t("header.subtitle")}</em>
           </h3>
 
@@ -35,15 +47,9 @@ class Header extends Component {
           >
             <b>{t("header.findMore")}</b>
           </a>
-          <a
-            className="btn shadow btn-lg btn-light btn-xl js-scroll-trigger"
-            href="./resources/Alberto_Bujalance_Resume_CV.pdf"
-            download="Alberto_Bujalance_Resume.pdf"
-          >
-            <b>{t("header.download")}{"  "}<i class="fa fa-download"></i></b>
-          </a>
           <h4 className="mt-5">
-            {t("header.currentLanguage")}<br/>
+            {t("header.currentLanguage")}
+            <br />
             <span className="language-selector">
               <b>
                 <u>{currLang.desc}</u>&#9662;

@@ -10,27 +10,31 @@ const socialSites = [
     icon: "icon-social-github"
   }
 ];
-const FooterSection = ({t}) => (
+const FooterSection = ({ t }) => (
   <footer className="footer text-center">
     <div className="container">
       <ul className="list-inline mb-5">
-      {socialSites.map((site,index)=>(
-        <li className="list-inline-item" key={`social_${index}`}>
-          <a className="social-link rounded-circle text-white mr-3" href={site.link}>
-            <i className={site.icon} />
-          </a>
-        </li>
-      ))}
-      <li className="list-inline-item">
-          <a className="social-link rounded-circle text-white mr-3" href="mailto:mail@abujalance.com">
-          <i className="icon-envelope" />
+        {socialSites.map((site, index) => (
+          <li className="list-inline-item" key={`social_${index}`}>
+            <a
+              className="social-link rounded-circle text-white mr-3"
+              href={site.link}
+            >
+              <i className={site.icon} />
+            </a>
+          </li>
+        ))}
+        <li className="list-inline-item">
+          <a
+            className="social-link rounded-circle text-white mr-3"
+            href="mailto:mail@abujalance.com"
+          >
+            <i className="icon-envelope" />
           </a>
         </li>
       </ul>
       <p>{t("social.mail")}: mail@abujalance.com</p>
-      <p className="text-muted small mb-0">
-        Copyright &copy; Abujalance 2020
-      </p>
+      <p className="text-muted small mb-0">Copyright &copy; Abujalance 2020</p>
     </div>
   </footer>
 );
