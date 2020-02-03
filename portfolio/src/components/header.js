@@ -35,6 +35,13 @@ class Header extends Component {
           >
             <b>{t("header.findMore")}</b>
           </a>
+          <a
+            className="btn shadow btn-lg btn-light btn-xl js-scroll-trigger"
+            href="./resources/Alberto_Bujalance_Resume_CV.pdf"
+            download="Alberto_Bujalance_Resume.pdf"
+          >
+            <b>{t("header.download")}{"  "}<i class="fa fa-download"></i></b>
+          </a>
           <h4 className="mt-5">
             {t("header.currentLanguage")}<br/>
             <span className="language-selector">
