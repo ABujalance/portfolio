@@ -10,6 +10,8 @@
   "sidebar.cv": "Timeline",
   "portfolio.projects": "Recent Projects",
   "portfolio.projects.button": "Check This Project!",
+  "portfolio.project.chefy.title": "Project in development",
+  "portfolio.project.chefy.desc": "Small web application developed to improve the experience cooking and searching recipes. There is more to be explained in the future, when the development is in a more advanced stage.",
   "portfolio.project.caserMapa.title": "Caser Insurance Agents Searcher",
   "portfolio.project.caserMapa.desc": "This project was part of the new web implementation. It allows an user to search nearby insurance agents and apply different filters and icons based on the type of agent",
   "portfolio.project.chatBot.title": "Integrated chatbot assistant",

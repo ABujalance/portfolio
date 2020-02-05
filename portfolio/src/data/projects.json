@@ -1,5 +1,13 @@
 {
   "projects": [
+    
+    {
+      "titleKey": "portfolio.project.chefy.title",
+      "bodyTextKey": "portfolio.project.chefy.desc",
+      "link": "https://github.com/ABujalance/recipe-app",
+      "image": "./img/chefy-project.jpg",
+      "techList": ["React", "Node", "MongoDB", "Redux"]
+    },
     {
       "titleKey": "portfolio.project.caserMapa.title",
       "bodyTextKey": "portfolio.project.caserMapa.desc",
