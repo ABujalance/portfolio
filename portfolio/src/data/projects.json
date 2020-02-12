@@ -4,9 +4,9 @@
     {
       "titleKey": "portfolio.project.chefy.title",
       "bodyTextKey": "portfolio.project.chefy.desc",
-      "link": "https://github.com/ABujalance/recipe-app",
+      "link": "https://github.com/ABujalance/quoted-twitter",
       "image": "./img/chefy-project.jpg",
-      "techList": ["React", "Node", "MongoDB", "Redux"]
+      "techList": ["React", "Redux"]
     },
     {
       "titleKey": "portfolio.project.caserMapa.title",

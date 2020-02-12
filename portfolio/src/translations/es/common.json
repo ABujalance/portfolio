@@ -11,7 +11,7 @@
   "portfolio.projects": "Proyectos recientes",
   "portfolio.projects.button": "Ver este proyecto",
   "portfolio.project.chefy.title": "Proyecto en desarrollo",
-  "portfolio.project.chefy.desc": "Pequeña aplicación desarrollada para mejorar la experiencia cocinando y buscando recetas. Se irán actualizando detalles a medida que el desarrollo avance.",
+  "portfolio.project.chefy.desc": "Pequeña aplicación web para mejorar la busqueda de twitter",
   "portfolio.project.caserMapa.title": "Buscador de agentes Caser",
   "portfolio.project.caserMapa.desc": "Proyecto realizado para la web pública de Caser que permite buscar los agentes de seguros más cercanos, distinguiendo entre varios tipos de agentes cada uno con su lógica de búsqueda.",
   "portfolio.project.chatBot.title": "Asistente integrado",
