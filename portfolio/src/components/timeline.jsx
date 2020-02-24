@@ -100,7 +100,8 @@ class Timeline extends Component {
                     </div>
                   </div>
                 </div>
-                <h3>{t("footer.cv")}</h3>
+
+                {/*<h3>{t("footer.cv")}</h3>
                 <a
                   className="btn shadow btn-lg btn-dark btn-xl"
                   href="./resources/Alberto_Bujalance_Resume_CV.pdf"
@@ -112,6 +113,7 @@ class Timeline extends Component {
                     <i class="fa fa-download"></i>
                   </b>
                 </a>
+    */}
               </div>
             </section>
           </div>
