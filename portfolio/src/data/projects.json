@@ -20,7 +20,7 @@
       "bodyTextKey": "portfolio.project.chatBot.desc",
       "link": "https://www.youtube.com/watch?v=zWELCudYRjY",
       "image": "./img/chatbot_nao.jpg",
-      "techList": ["IBM Watson", "Python", "Node-Red"]
+      "techList": ["IBM Watson", "Python", "Node-Red."]
     }
   ]
 }
