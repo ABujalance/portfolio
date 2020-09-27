@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5d5507bb32dcc59a68d0d430e8924d6",
+    "revision": "e954e4a30d22bfd1c1e86ed119836c8f",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.878d2a8f.chunk.css"
   },
   {
-    "revision": "4bb13c268ad146b64629",
-    "url": "/static/css/main.b71877f0.chunk.css"
+    "revision": "8e98aff85b03aa36ecc4",
+    "url": "/static/css/main.9cd578f9.chunk.css"
   },
   {
     "revision": "db65c96aa1d1852fdc0f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.805370bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4bb13c268ad146b64629",
-    "url": "/static/js/main.feddd661.chunk.js"
+    "revision": "8e98aff85b03aa36ecc4",
+    "url": "/static/js/main.302705a2.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -180,8 +180,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.f6121be5.woff2"
   },
   {
-    "revision": "ec75cefa7c19eec2599b173f705a31c5",
-    "url": "/static/media/gato-2.ec75cefa.jpg"
+    "revision": "2c70cddb8ac2be5fa836abcb6565a28e",
+    "url": "/static/media/gato-2.2c70cddb.jpg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
