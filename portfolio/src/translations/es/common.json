@@ -10,10 +10,10 @@
   "sidebar.cv": "Linea temporal",
   "portfolio.projects": "Proyectos recientes",
   "portfolio.projects.button": "Ver este proyecto",
-  "portfolio.project.chefy.title": "Proyecto en desarrollo",
-  "portfolio.project.chefy.desc": "Pequeña aplicación web para mejorar la busqueda de twitter",
   "portfolio.project.caserMapa.title": "Buscador de agentes Caser",
   "portfolio.project.caserMapa.desc": "Proyecto realizado para la web pública de Caser que permite buscar los agentes de seguros más cercanos, distinguiendo entre varios tipos de agentes cada uno con su lógica de búsqueda.",
+  "portfolio.project.vueChat.title": "Vue & Firebase Chat POC",
+  "portfolio.project.vueChat.desc": "Este proyecto se ha realizado como parte de mi aprendizaje de Vue. Decidí añadir Firebase para aprender más sobre esta plataforma y la tecnología de base de datos que tiene.",
   "portfolio.project.chatBot.title": "Asistente integrado",
   "portfolio.project.chatBot.desc": "Realicé este proyecto como final de carrera. Un asistente virtual se encargaba de guiarte a traves de la configuración de una herramienta. Se integró también con un robot que escuchaba y respondía a las preguntas.",
   "skills.title": "Estas son algunas de mis habilidades",
@@ -46,6 +46,6 @@
   "timeline.deloitte.desc": "Proyecto en Vue utilizando metodologías de implementación que daban prioridad a los tests además de metodologías de desarrollo ágil con constante comunicación con un equipo internacional",  "timeline.present": "presente",
   "social.mail": "contacto",
   "about.title": "Hola, soy un Ingeniero de Software y puedo ayudarte a construir tus proyectos",
-  "about.desc": "He trabajado como desarrollador web 'Fullstack' durante 3 años. Tengo experiencia trabajando directamente con clientes, entendiendo sus necesidades y construyendo o mejorando sus sistemas.¿Por qué me encanta trabajar directamente con clientes? Porque puedo sentir sus proyectos como míos. /n Trabajar en un proyecto enorme con varios equipos compuestos de cientos de personas hace que pierdas de vista el global del proyecto. Me fascina poder hacer real la visión de los clientes y estar con ellos durante el proceso completo. /n Si quieres convertir en una realidad tu sistema web, puedes consultar mis habilidades resaltadas abajo y contactarme con cualquier duda o propuesta en mail@abujalance.com",
+  "about.desc": "He trabajado como desarrollador web 'Fullstack' durante más de 3 años. Tengo experiencia trabajando directamente con clientes, entendiendo sus necesidades y construyendo o mejorando sus sistemas. /n He trabajado con todo tipo de equipos, sobre todo equipos internacionales y distribuidos de diferentes tamaños. Esto me ha enseñado cómo trabajar en diferentes situaciones y mejorar mi comunicacón así como trabajar bajo presión. /n Si quieres convertir en una realidad tu sistema web, puedes consultar mis habilidades resaltadas abajo y contactarme con cualquier duda o propuesta en mail@abujalance.com",
   "footer.cv": "¿Te gusta lo que ves? ¡Puedes descargar mi Curriculum!"
 }

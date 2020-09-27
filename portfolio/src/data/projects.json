@@ -1,12 +1,12 @@
 {
   "projects": [
-    
+        
     {
-      "titleKey": "portfolio.project.chefy.title",
-      "bodyTextKey": "portfolio.project.chefy.desc",
-      "link": "https://github.com/ABujalance/quoted-twitter",
-      "image": "./img/chefy-project.jpg",
-      "techList": ["React", "Redux"]
+      "titleKey": "portfolio.project.vueChat.title",
+      "bodyTextKey": "portfolio.project.vueChat.desc",
+      "link": "https://abujalance-vue-chat.herokuapp.com/",
+      "image": "./img/vueChat.jpg",
+      "techList": ["Vue", "Firebase"]
     },
     {
       "titleKey": "portfolio.project.caserMapa.title",
