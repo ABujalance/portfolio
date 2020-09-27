@@ -22,6 +22,23 @@ class Timeline extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="timeline-centered">
+                    <article
+                        className="timeline-entry animate-box"
+                        data-animate-effect="fadeInLeft"
+                      >
+                        <div className="timeline-entry-inner">
+                          <div className="timeline-icon color-4">
+                            <i className="icon-note" />
+                          </div>
+                          <div className="timeline-label">
+                            <h2>
+                              {t("timeline.deloitte.title")}{" "}
+                              <span>2020-{t("timeline.present")}</span>
+                            </h2>
+                            <p>{t("timeline.deloitte.desc")} </p>
+                          </div>
+                        </div>
+                      </article>
                       <article
                         className="timeline-entry animate-box"
                         data-animate-effect="fadeInLeft"
@@ -33,7 +50,7 @@ class Timeline extends Component {
                           <div className="timeline-label">
                             <h2>
                               {t("timeline.babel.title")}{" "}
-                              <span>2019-{t("timeline.present")}</span>
+                              <span>2019-2020</span>
                             </h2>
                             <p>{t("timeline.babel.desc")} </p>
                           </div>
