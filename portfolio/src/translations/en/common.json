@@ -8,6 +8,7 @@
   "sidebar.about": "About",
   "sidebar.skills": "Skills",
   "sidebar.cv": "Timeline",
+
   "portfolio.projects": "Recent Projects",
   "portfolio.projects.button": "Check This Project!",
   "portfolio.project.caserMapa.title": "Caser Insurance Agents Searcher",
@@ -16,6 +17,9 @@
   "portfolio.project.vueChat.desc": "This project was made as part of my Vue training where I decided to add Firebase database in order to learn how to better use this technology for the future.",
   "portfolio.project.chatBot.title": "Integrated chatbot assistant",
   "portfolio.project.chatBot.desc": "This was part of my degree's final project. The assistant guides you through the configuration proccess of a tool. It was also integrated with a real robot which hears and answers the questions",
+  "portfolio.project.awesomeMapper.title": "Awesome Mapper",
+  "portfolio.project.awesomeMapper.desc": "[IN PROGRESS] Map generator based on custom png files and a tile map",
+
   "skills.title": "These are some of my skills",
   "portfolio.skill.web.title": "Web development",
   "portfolio.skill.web.desc": "I have worked in web development my whole career. It was one of the main focuses of my degree and my master's degree. I know html and css and I've worked with a variety of Frameworks and technologies such as Spring and Java, Django and Python as well as Javascript frameworks such as React, Node and Angular (In fact, this page is made with React!) ",
