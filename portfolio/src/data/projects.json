@@ -1,17 +1,16 @@
 {
   "projects": [
-
     {
       "titleKey": "portfolio.project.awesomeMapper.title",
       "bodyTextKey": "portfolio.project.awesomeMapper.desc",
       "link": "https://abujalance.github.io/Awesome-Mapper/",
       "image": "./img/awesomeMapper.jpg",
       "techList": ["React", "Firebase"]
-    }, 
+    },
     {
       "titleKey": "portfolio.project.vueChat.title",
       "bodyTextKey": "portfolio.project.vueChat.desc",
-      "link": "https://abujalance-vue-chat.herokuapp.com/",
+      "link": "http://vue-chat.abujalance.com/",
       "image": "./img/vueChat.jpg",
       "techList": ["Vue", "Firebase"]
     },
